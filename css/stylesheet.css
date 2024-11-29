@@ -52,12 +52,12 @@ button {
   color: #2e2f42;
 }
 
-.list-item-link:hover,
-.list-istem-link:focus {
+.list-item-link:hover {
   color: #404bbf;
 }
 
-.studio-link:active {
+.studio-link:active,
+.studio-link:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -220,7 +220,7 @@ button {
   color: #4d5ae5;
 }
 
-.footer-logo-span {
+footer .logo-span {
   color: #f4f4fd;
 }
 .footer-paragraph {
