@@ -1,6 +1,5 @@
 body {
   font-family: 'Roboto', sans-serif;
-  font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -22,6 +21,7 @@ button {
 .nav-page {
 }
 .logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -31,6 +31,7 @@ button {
 }
 
 .logo-span {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -44,7 +45,6 @@ button {
 .list-item {
 }
 .list-item-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -79,7 +79,7 @@ button {
   background: #2e2f42;
 }
 
-.main-header {
+.main-heading {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
@@ -114,8 +114,7 @@ button {
 }
 .benefits-item {
 }
-.benefits-sub-header {
-  font-family: 'Roboto', sans-serif;
+.benefits-sub-heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -123,7 +122,6 @@ button {
   color: #2e2f42;
 }
 .benefits-paragraph {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -135,8 +133,15 @@ button {
 
 /* #region Our Team */
 .team {
+  background: #f4f4fd;
 }
-.team-header {
+.team-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .team-list {
 }
@@ -144,7 +149,13 @@ button {
 }
 .team-img {
 }
-.team-sub-header {
+.team-sub-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .team-paragraph {
 }
@@ -153,7 +164,7 @@ button {
 /* #region Portfolio */
 .portfolio {
 }
-.portfolio-header {
+.portfolio-heading {
 }
 .portfolio-list {
 }
@@ -161,7 +172,7 @@ button {
 }
 .portfolio-img {
 }
-.portfolio-subheader {
+.portfolio-sub-heading {
 }
 .portfolio-parapgraph {
 }
