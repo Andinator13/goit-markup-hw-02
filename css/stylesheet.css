@@ -57,15 +57,6 @@ button {
   color: #404bbf;
 }
 
-.studio-link:active,
-.studio-link:focus {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #404bbf;
-}
-
 .address-link {
   font-style: normal;
   font-weight: 400;
@@ -115,6 +106,15 @@ button {
 
 /* #region Benefits */
 .benefits {
+}
+
+.benefits-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .benefits-list {
 }
